@@ -1,0 +1,21 @@
+{
+  "name": "wiki-mcp",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "inspect": "npx @modelcontextprotocol/inspector node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "wiki",
+    "confluence"
+  ],
+  "author": "Johnny Z",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.7.2",
+    "zod": "^3.25.76"
+  }
+}
